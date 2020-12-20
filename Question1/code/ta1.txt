@@ -1,0 +1,3 @@
+clock=8MHZ
+single 7 segment
+produce number using timer1
