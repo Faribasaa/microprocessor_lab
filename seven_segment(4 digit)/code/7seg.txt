@@ -1,0 +1,4 @@
+clk=8MHZ
+prescaler timer 1 = 64 /TCNT1=3035  --->0.5 s
+prescaler timer 0 = 1024 / TCNT0=100 ---->20 ms*3=60 ms
+                
