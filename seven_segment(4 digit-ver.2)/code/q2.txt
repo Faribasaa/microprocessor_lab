@@ -1,3 +1,0 @@
-clock=8 MHz
-produce number using timer1 / prescaler=64 / TCNT1=3035 --->0.5 s
-showing in function display_numbers
