@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>6.1</ProjectVersion>
     <ToolchainName>com.HPInfoTech.CodeVisionAVR.C</ToolchainName>
-    <ProjectGuid>{86F9DFCA-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
+    <ProjectGuid>{C35AA143-423D-497C-A76A-A46C3F34E8A0}</ProjectGuid>
     <avrdevice>ATmega16</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.cof</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>input_capture</AssemblyName>
-    <Name>input_capture</Name>
-    <RootNamespace>input_capture</RootNamespace>
+    <AssemblyName>frequency_meter</AssemblyName>
+    <Name>frequency_meter</Name>
+    <RootNamespace>frequency_meter</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -24,19 +24,19 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <CV>
-        <CVProjectPath>"input_capture.prj"</CVProjectPath>
+        <CVProjectPath>"frequency_meter.prj"</CVProjectPath>
       </CV>
     </ToolchainSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <CV>
-        <CVProjectPath>"input_capture.prj"</CVProjectPath>
+        <CVProjectPath>"frequency_meter.prj"</CVProjectPath>
       </CV>
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="input_capture.c">
+    <Compile Include="frequency_meter.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
