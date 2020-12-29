@@ -14,8 +14,8 @@
 **task2: question2- 4digit counter ----> seven segment(4digit), seven segmant(4digit-ver.2)
 
 
-***task3:folder experiment3 -> question1:hello world
-                               question2: alphabet
+***task3:folder experiment3 -> question1:hello world //
+                               question2: alphabet //
                                question3: frequency_meter
                                
                                
