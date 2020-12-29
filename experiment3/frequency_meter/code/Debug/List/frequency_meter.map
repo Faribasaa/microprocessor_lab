@@ -1,11 +1,11 @@
 RAM Allocation [bytes]
 Variable                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
-frequency                                                                         0x016C       4
-str                                                                               0x0170      16
-_base_y                                                                           0x0180       4
-_lcd_y                                                                            0x0184       1
-_lcd_maxx                                                                         0x0185       1
+frequency                                                                         0x016B       4
+str                                                                               0x016F      16
+_base_y                                                                           0x017F       4
+_lcd_y                                                                            0x0183       1
+_lcd_maxx                                                                         0x0184       1
 
 EEPROM Allocation [bytes]
 Variable                                                                          Address   Size
@@ -24,36 +24,17 @@ FLASH Allocation [words]
 Function                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
 timer1_ovf_isr                                                                    0x00072      6
-timer1_capt_isr                                                                   0x00078     65
-main                                                                              0x000B9     70
-put_buff_G100                                                                     0x000FF     64
-_print_G100                                                                       0x0013F    308
-sprintf                                                                           0x00273     52
-_lcd_write_nibble_G101                                                            0x002A7     20
-_lcd_write_data                                                                   0x002BB     12
-lcd_gotoxy                                                                        0x002C7     15
-lcd_clear                                                                         0x002D6     13
-lcd_putchar                                                                       0x002E3     26
-lcd_puts                                                                          0x002FD     17
-lcd_init                                                                          0x0030E     47
-strlen                                                                            0x0033D     12
-strlenf                                                                           0x00349     13
-
-FLASH Allocation [words]
-Function                                                                          Address   Size
-------------------------------------------------------------------------------------------------
-timer1_ovf_isr                                                                    0x00072      6
-timer1_capt_isr                                                                   0x00078     65
-main                                                                              0x000B9     70
-put_buff_G100                                                                     0x000FF     64
-_print_G100                                                                       0x0013F    308
-sprintf                                                                           0x00273     52
-_lcd_write_nibble_G101                                                            0x002A7     20
-_lcd_write_data                                                                   0x002BB     12
-lcd_gotoxy                                                                        0x002C7     15
-lcd_clear                                                                         0x002D6     13
-lcd_putchar                                                                       0x002E3     26
-lcd_puts                                                                          0x002FD     17
-lcd_init                                                                          0x0030E     47
-strlen                                                                            0x0033D     12
-strlenf                                                                           0x00349     13
+timer1_capt_isr                                                                   0x00078     61
+main                                                                              0x000B5     70
+put_buff_G100                                                                     0x000FB     64
+_print_G100                                                                       0x0013B    308
+sprintf                                                                           0x0026F     52
+_lcd_write_nibble_G101                                                            0x002A3     20
+_lcd_write_data                                                                   0x002B7     12
+lcd_gotoxy                                                                        0x002C3     15
+lcd_clear                                                                         0x002D2     13
+lcd_putchar                                                                       0x002DF     26
+lcd_puts                                                                          0x002F9     17
+lcd_init                                                                          0x0030A     47
+strlen                                                                            0x00339     12
+strlenf                                                                           0x00345     13

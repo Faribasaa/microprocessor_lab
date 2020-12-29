@@ -25,7 +25,6 @@ Data Stack size         : 256
 #include <stdio.h>
 #include <delay.h>
 #include <alcd.h>
-#define ICP1 PIND.6
  
 unsigned char counter;
 unsigned int start_time, stop_time, period;
@@ -43,7 +42,7 @@ interrupt [TIM1_OVF] void timer1_ovf_isr(void)
 interrupt [TIM1_CAPT] void timer1_capt_isr(void)
 {
  
-TCCR1B^= (1<<ICES1);
+ 
 
 stop_time = 256*ICR1H + ICR1L;  
 period = (unsigned long)stop_time
@@ -128,7 +127,7 @@ while (1)
       
       sprintf(str,"%d (Hz)", (int)frequency);
       lcd_gotoxy(2,0);
-	  lcd_puts("Frequency :");
+	  lcd_puts("Frequency:");
       lcd_gotoxy(4,1);
       lcd_puts(str);
       } 
