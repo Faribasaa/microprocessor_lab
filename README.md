@@ -14,8 +14,7 @@
 
 **question1**: 1digit counter
 
-> **question2**: 4digit counter
->> Seven segment(4digit) & Seven segmant(4digit-ver.2)
+**question2**: 4digit counter ----> Seven segment(4digit) & Seven segmant(4digit-ver.2)
 
 ## Task3
 
