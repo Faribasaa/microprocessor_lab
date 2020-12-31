@@ -1,23 +1,30 @@
 # microprocessor_lab
-*task1: question1-toggle LED every 0.5 (s)
+##Task1##
 
-*task1: question2- dancing light with 8 LED
+question1:toggle LED every 0.5 (s)
 
-*task1: question4- AVR clock source
+question2: dancing light with 8 LED
 
-*task1: question5- LED current and voltage
+question4: AVR clock source
 
+question5: LED current and voltage
 
-**task2: question1- 1digit counter
+###Task2###
 
+question1: 1digit counter
 
-**task2: question2- 4digit counter ----> seven segment(4digit), seven segmant(4digit-ver.2)
+question2: - 4digit counter
+              - seven segment(4digit)
+              - seven segmant(4digit-ver.2)
 
+####Task3####
 
-***task3:folder experiment3 -> question1:hello world //
-                               question2: alphabet //
-                               question3: frequency_meter
+>experiment3  
+>>question1: hello world 
+>>question2: alphabet
+>>question3: frequency_meter
                                
                                
-                               
-****task4: folder experiment4 -> Design PCB
+#####Task4#####
+
+experiment4: Design PCB
