@@ -1,5 +1,5 @@
 # microprocessor_lab
-##Task1##
+##Task1
 
 question1:toggle LED every 0.5 (s)
 
@@ -9,7 +9,7 @@ question4: AVR clock source
 
 question5: LED current and voltage
 
-###Task2###
+###Task2
 
 question1: 1digit counter
 
@@ -17,7 +17,7 @@ question2: - 4digit counter
               - seven segment(4digit)
               - seven segmant(4digit-ver.2)
 
-####Task3####
+####Task3
 
 >experiment3  
 >>question1: hello world 
@@ -25,6 +25,6 @@ question2: - 4digit counter
 >>question3: frequency_meter
                                
                                
-#####Task4#####
+#####Task4
 
 experiment4: Design PCB
