@@ -27,3 +27,10 @@
 ## Task4
 
 **experiment4**: Design PCB
+
+## Task5
+
+* **experiment5**
+   * question1: Stepper motor - rotate in one direction
+   * question2: Stepper motor - rotate in two directions
+   * question3: Stepper motor - change speed
