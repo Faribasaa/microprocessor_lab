@@ -33,4 +33,4 @@
 * **experiment5**
    * question1: Stepper motor - rotate in one direction
    * question2: Stepper motor - rotate in two directions
-   * question3: Stepper motor - change speed
+   * question3: Stepper motor - change speed (RPM=(f*4*60)/step)
